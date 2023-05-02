@@ -2,13 +2,13 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Helvetica;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 40px;
 }
 
 #tasks-container {
-    width: 400px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,6 +20,7 @@ body {
 
 #add-task-form {
     position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
 }
 
 #add-task-form input {
@@ -33,7 +34,7 @@ body {
 }
 
 #add-task-form input::placeholder {
-    color: #8692c3;
+    color: #adb7db;
 }
 
 #add-task-form input:focus {
@@ -75,9 +76,9 @@ ion-icon {
     height: 50px;
     line-height: 50px;
     position: relative;
-    border-bottom: 1px solid   #145796;
+    border-bottom: 1px solid   #799ec1;
     background-color: white;
-    color: #1b3fc1;
+    color: #4863c7;
     margin-bottom: 10px;
     padding-left: 15px;
     transition: .5s;
@@ -121,7 +122,7 @@ ion-icon {
 }
 
 #task-list li.done{
-    background-color: #072789;
-    color: white;
+    background-color: #4d4c59c3;
+    color: rgb(255, 255, 255);
     text-decoration: line-through;
 }
